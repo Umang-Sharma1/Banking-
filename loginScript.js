@@ -63,7 +63,7 @@ const account3 = {
 };
 
 const account4 = {
-  owner: "Naman Rastogi Mavanevala",
+  owner: "Naman Rastogi",
   movements: [20000, 3400, -10400, 2000, 6000, -600, 1600, 400],
   interestRate: 1,
   pin: 4444,

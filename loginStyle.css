@@ -381,7 +381,7 @@ h2 {
   padding: 10rem 3rem;
   background-image: linear-gradient(to top left, #e52a5a, #ff585f);
   /* height: 36.5vh; */
-  /* width: 100%; */
+  width: 100%;
 }
 
 .footer__nav {

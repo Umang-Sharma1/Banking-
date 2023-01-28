@@ -10,6 +10,9 @@ const tabs = document.querySelectorAll(".operations__tab");
 const tabsContainer = document.querySelector(".operations__tab-container");
 const tabsContent = document.querySelectorAll(".operations__content");
 const nav = document.querySelector(".nav");
+
+const hamMenu = document.querySelector(".hamburger");
+const hiddenMenu = document.querySelector(".nav__links");
 ///////////////////////////////////////
 
 //Cookies Message
@@ -51,7 +54,7 @@ document.addEventListener("keydown", function (e) {
   }
 });
 
-//Button Scrolling
+// Button Scrolling
 
 btnScrollTo.addEventListener("click", function (e) {
   e.preventDefault();
@@ -315,9 +318,6 @@ const slider = function () {
 slider();
 
 //toggle hamburger
-
-const hamMenu = document.querySelector(".hamburger");
-const hiddenMenu = document.querySelector(".nav__links");
 
 hamMenu.addEventListener("click", function () {
   if (document.querySelector(".nav").classList.contains("sticky")) {
